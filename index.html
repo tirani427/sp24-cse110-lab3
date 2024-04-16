@@ -111,9 +111,20 @@
 
       <section>
         <h2 id="comments">Comments, Concerns, Etc.</h2>
-        <textarea id="userinput" name="userinput" rows="6" cols="50">
-          Any other comments, concerns, or potential meeting topics can be entered here.
+        <textarea id="userinput" name="userinput" rows="10" cols="100">
+Any other comments, concerns, or potential meeting topics can be entered here.
         </textarea>
+
+        <p>Here are a few options for potenial discussion topics next week. Choose one:</p>
+        <label for="nextTopics">Choose a topic from this list:</label>
+        <input list="topics" id="nextTopics" name="nextTopics">
+        <datalist id="topics">
+          <option value="Location for Dragon Pens"></option>
+          <option value="Space Issues"></option>
+          <option value="Switching the Vikings to Vegetarian"></option>
+          <option value="Exploratory Parties to find others"></option>
+          <option value="Snoggletog Party"></option>
+        </datalist>
         
       </section>
     </main>
