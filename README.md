@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3 
 
-[https://tirani427.github.io/Lab2_Starter/](https://tirani427.github.io/Lab2_Starter/)
+[https://tirani427.github.io/sp24-cse110-lab3/](https://tirani427.github.io/sp24-cse110-lab3/)
