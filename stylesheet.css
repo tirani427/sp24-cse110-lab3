@@ -9,8 +9,8 @@ body{
   padding: <bottom> 2.5px;
 
   border-color: SteelBlue;
-  border-width: 10px;
-  border-radius: 3px;
+  border-width: 20px;
+  border-radius: 10px;
   border-style: dotted;
   
 }
@@ -23,4 +23,15 @@ h1{
 h2{
   color: rgb(240, 104, 50);
   margin-left: 45px;
+}
+
+p{
+  border-style: dashed;
+  border-width: 25px;
+
+  color: midnightblue;
+
+  margin: <left> 10px;
+  padding: <top> 10px;
+  padding: <bottom> 15px;
 }
