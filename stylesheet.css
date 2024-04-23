@@ -1,10 +1,10 @@
 header{
-  font-family: courier;
+  font-family: Xanh Mono;
   font-size: 90%;
 }
 
 body{
-  background-color: MintCream;
+  background-color: #c7f5c2;
   margin-left: 10px;
   margin-top: 10px;
   margin: <right> 10px;
@@ -25,17 +25,19 @@ h1{
   margin-left: 20px;
   font-family: caveat;
   font-size: 200%
+  text-align: center;
 }
 
 h2{
-  color: rgb(240, 104, 50);
+  color: rgb(107, 61, 10);
   margin-left: 25px;
   font-family: caveat;
+  text-align: center;
 }
 
 p{
   font-family: Xanh Mono;
-  font-size: 160%;
+  font-size: 100%;
   
   border-style: dashed;
   border-width: 1.5px;
@@ -51,8 +53,8 @@ p{
 
 ul{
   list-style-type: lower-alpha;
-  background: color-mix(in hsl longer hue, hsl(120 100% 50%) 20%, white);
-  color: darkolivegreen;
+  background: color-mix(in hsl longer hue, hsl(120 100% 50%) 30%, white);
+  color:  #75521f;
   margin: 5px;
 }
 
