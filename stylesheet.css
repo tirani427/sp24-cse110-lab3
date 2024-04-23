@@ -20,8 +20,8 @@ body{
 }
 
 /*Styling for the <p> elements*/
-p{
+#topicslist{
   color: var(--main-color, brown);
-  text-align: center;
+  margin: 5px;
+  font-family: Xanh Mono;
 }
-
