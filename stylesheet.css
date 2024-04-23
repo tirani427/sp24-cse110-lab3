@@ -1,68 +1,27 @@
-header{
-  font-family: Xanh Mono;
-  font-size: 90%;
-}
-
 body{
-  background-color: #c7f5c2;
-  margin-left: 10px;
-  margin-top: 10px;
-  margin: <right> 10px;
+  /*Background color for the body portion of html*/
+  background-color: rgba(215, 244, 215, 1); 
+  margin-left: 20px;
+  margin: <top> 20px;
   margin-bottom: auto;
 
-  padding-top: 2.5px;
-  padding: <bottom> 2.5px;
+  /*padding for the html*/
+  padding-top: auto;
+  padding: <bottom> 10px;
 
-  border-color: SteelBlue;
-  border-width: 4.5px;
-  border-radius: 2px;
-  border-style: dotted;
-  
+  /*border color for the html*/
+  border-color: #948f5c;
+  border-style: dots;
+  border-radius: 2.5px;
 }
 
-h1{
-  color:#48D1CC;
-  margin-left: 20px;
-  font-family: caveat;
-  font-size: 200%
-  text-align: center;
+:root{
+  --main-color: #663300;
 }
 
-h2{
-  color: rgb(107, 61, 10);
-  margin-left: 25px;
-  font-family: caveat;
-  text-align: center;
-}
-
+/*Styling for the <p> elements*/
 p{
-  font-family: Xanh Mono;
-  font-size: 100%;
-  
-  border-style: dashed;
-  border-width: 1.5px;
-
-  color: midnightblue;
-
-  margin: <left> 10px;
-  padding: <top> 10px;
-  padding: <bottom> 15px;
-
+  color: var(--main-color, brown);
   text-align: center;
 }
-
-ul{
-  list-style-type: lower-alpha;
-  background: color-mix(in hsl longer hue, hsla(24, 22%, 46%, 1) 30%, brown);
-  color:  #75521f;
-  margin: 5px;
-}
-
-ol{
-  text-align: center;
-  color: #85703d;
-  background: hsla(24, 22%, 46%, 1);
-  margin: 5px;
-}
-
 
