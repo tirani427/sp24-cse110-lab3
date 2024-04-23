@@ -23,17 +23,18 @@ body{
 h1{
   color:#48D1CC;
   margin-left: 20px;
-  font-family: courier;
+  font-family: caveat;
   font-size: 200%
 }
 
 h2{
   color: rgb(240, 104, 50);
   margin-left: 25px;
+  font-family: caveat;
 }
 
 p{
-  font-family: courier;
+  font-family: Xanh Mono;
   font-size: 160%;
   
   border-style: dashed;
@@ -45,12 +46,12 @@ p{
   padding: <top> 10px;
   padding: <bottom> 15px;
 
-  text-align: start;
+  text-align: center;
 }
 
 ul{
-  list-style-type: upper-roman;
-  background: #BDB76B;
+  list-style-type: lower-alpha;
+  background: color-mix(in hsl longer hue, hsl(120 100% 50%) 20%, white);
   color: darkolivegreen;
   margin: 5px;
 }
