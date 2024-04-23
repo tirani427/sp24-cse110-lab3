@@ -1,6 +1,6 @@
 header{
-  font-family: verdana;
-  font-size: 250%;
+  font-family: courier;
+  font-size: 90%;
 }
 
 body{
@@ -23,7 +23,8 @@ body{
 h1{
   color:#48D1CC;
   margin-left: 20px;
-  font-family: verdana;
+  font-family: courier;
+  font-size: 200%
 }
 
 h2{
@@ -46,3 +47,11 @@ p{
 
   text-align: start;
 }
+
+ul{
+  list-style-type: upper-roman;
+  background: #BDB76B;
+  color: darkolivegreen;
+  margin: 5px;
+}
+
