@@ -16,7 +16,7 @@ body{
 }
 
 /*Styling for the <p> elements*/
-#topicslist{
+#mainpoints {
   color: var(#663300, brown);
   margin: 5px;
   font-family: Xanh Mono;
