@@ -17,7 +17,7 @@ body{
 
 /*Styling for the <p> elements*/
 #mainpoints {
-  color: var(#663300, brown);
+  color: #663300;
   margin: 5px;
   font-family: Xanh Mono;
 }
