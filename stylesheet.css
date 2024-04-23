@@ -53,8 +53,16 @@ p{
 
 ul{
   list-style-type: lower-alpha;
-  background: color-mix(in hsl longer hue, hsl(120 100% 50%) 30%, white);
+  background: color-mix(in hsl longer hue, hsla(24, 22%, 46%, 1) 30%, brown);
   color:  #75521f;
   margin: 5px;
 }
+
+ol{
+  text-align: center;
+  color: #85703d;
+  background: hsla(24, 22%, 46%, 1);
+  margin: 5px;
+}
+
 
