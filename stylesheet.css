@@ -1,6 +1,18 @@
 body{
   background-color: MintCream;
   margin-left: 40px;
+  margin-top: 40px;
+  margin: <right> 40px;
+  margin-bottom: auto;
+
+  padding-top: 2.5px;
+  padding: <bottom> 2.5px;
+
+  border-color: SteelBlue;
+  border-width: 10px;
+  border-radius: 3px;
+  border-style: dotted;
+  
 }
 
 h1{
