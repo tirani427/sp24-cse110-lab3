@@ -27,11 +27,19 @@ h2{
 
 p{
   border-style: dashed;
-  border-width: 2.5px;
+  border-width: .5px;
 
   color: midnightblue;
 
   margin: <left> 10px;
   padding: <top> 10px;
   padding: <bottom> 15px;
+
+  text-align: start;
+}
+ul{
+  list-style-type: circle;
+  background: #9ACD32;
+  color: darkolivegreen;
+  margin: 5px;
 }
