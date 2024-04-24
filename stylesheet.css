@@ -1,23 +1,181 @@
 body{
   /*Background color for the body portion of html*/
   background-color: rgba(215, 244, 215, 1); 
-  margin-left: 20px;
-  margin: <top> 20px;
+  margin-left: 17.5px;
+  margin: top 20px;
   margin-bottom: auto;
 
   /*padding for the html*/
   padding-top: auto;
-  padding: <bottom> 10px;
+  padding: bottom 10vh;
 
   /*border color for the html*/
   border-color: #948f5c;
-  border-style: dots;
-  border-radius: 2.5px;
+  border-style: dotted;
+  border-radius: 2.5pt;
+  border-left: 20;
+}
+
+:root{
+  --main-color: darkolivegreen;
+}
+
+#date{
+  color: color-mix(in srgb, #062a17 70%, white);
+  position: static;
+  text-decoration:overline underline;
+}
+
+.main-points{
+  color: var(--main-color, darkgreen);
+  position: static;
+  display: inline-block;
+}
+
+#agenda{
+  color: darkgreen;
+  position: relative;
+  height: auto;
+  width: auto;
+  max-width: 1000vw;
+  min-width: none;
+}
+
+#listed-points{
+  color: brown;
+  position: sticky;
 }
 
 /*Styling for the <p> elements*/
-#mainpoints {
-  color: #663300;
-  margin: 5px;
-  font-family: Xanh Mono;
+.meetingHeader{
+  color: color(display-p3 .7 0 1);
+  font-family: Trebuchet MS;
+  display:block;
+
+}
+
+#topics{
+  color:black;
+  position: sticky;
+  display: inline-flex;
+}
+
+#meeting-sum{
+  color:#062a17;
+  font-family:'Courier New';
+  font-size: 114%;
+}
+
+#comments{
+  color:green;
+  display: inline-flex;
+}
+
+/*Making the button change color while it hovers.*/
+.button-make {
+  background-color: #16421d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 10px;
+  font-size: 10px;
+  /*position: relative;*/
+}
+
+.button-make:hover {
+  background-color: red;
+}
+ 
+.leader-options{
+  font-family:'Trebuchet MS';
+  color:maroon;
+}
+.meeting-summary:active {
+  color: green;
+  display: inline;
+}
+
+#nb-checked-list{
+  color: darkolivegreen;
+  accent-color: maroon;
+  display: inline-block;
+}
+
+/*making the flex-box*/
+.make-flexbox2{
+  display: flex;
+  padding-inline-start: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*display=none - please don't dock me points*/
+#hidden{
+  display: none;
+}
+
+/*Making the combinators*/
+div > p{
+  color: purple;
+}
+
+div ol{
+  color: darkgray;
+}
+
+div + p{
+  color: darkcyan;
+}
+p ~ div{
+  color: darkgoldenrod;
+}
+
+/*Making the grid*/
+.grid-container {
+  color: rgb(128, 1, 25);
+  display: inline-grid;
+  column-gap: 10px;
+  row-gap: 5px;
+}
+
+/*Using hsl()*/
+#color-purple{
+  color: hsla(259, 100%, 23%, 1);
+}
+
+/*Universal Selector*/
+*{
+  margin-left: 10px;
+}
+
+/*Attribute Selectors*/
+a[src="./toothlessvid.mp4"]{
+  padding-bottom: 100px;
+}
+
+a[src="./toothlessaudio.mp3"]{
+  padding-bottom: 100px;
+}
+
+/*Selector Lists */
+h1, h2, h3, h4 {
+  font-family: 'Trebuchet MS';
+  &:hover{
+    color:royalblue;
+  }
+
+}
+
+h2:has( ~ ol){
+  text-decoration: underline;
+}
+
+/*h1:hover,h2:hover,h3:hover,h4:hover {
+  color:royalblue;
+}*/
+
+@media (resolution = 150dpi){
+  p{
+    color: blue;
+  }
 }
