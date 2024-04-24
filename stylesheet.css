@@ -2,18 +2,18 @@ body{
   /*Background color for the body portion of html*/
   background-color: rgba(215, 244, 215, 1); 
   margin-left: 17.5px;
-  margin: top 20px;
+  margin-top:20px;
   margin-bottom: auto;
 
   /*padding for the html*/
-  padding-top: auto;
-  padding: bottom 10vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 
   /*border color for the html*/
   border-color: #948f5c;
   border-style: dotted;
   border-radius: 2.5pt;
-  border-left: 20;
+  border-left: 20px;
 }
 
 :root{
@@ -21,7 +21,7 @@ body{
 }
 
 #date{
-  color: color-mix(in srgb, #062a17 70%, white);
+  color: color-mix(srgb #062a17 70% white);
   position: static;
   text-decoration:overline underline;
 }
@@ -38,7 +38,7 @@ body{
   height: auto;
   width: auto;
   max-width: 1000vw;
-  min-width: none;
+  min-width: 10px;
 }
 
 #listed-points{
@@ -145,7 +145,7 @@ p ~ div{
 
 /*Universal Selector*/
 *{
-  margin-left: 10px;
+  margin: 15px;
 }
 
 /*Attribute Selectors*/
