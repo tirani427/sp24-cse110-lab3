@@ -33,7 +33,7 @@
         width="250"
       >
       <br>
-      <h2>Date:<input type="date"></h2>
+      <h2 id="date">Date:<input type="date"></h2>
       <h2 id="attendance">Attendance</h2>
       <ol>
         <li><input type="text"></li>
@@ -45,31 +45,31 @@
       </ol>
       <br><hr>
       <section>
-        <h2 id="agenda">Meeting Agenda</h2>
-        <h3><em>Brief overview of potential talking points.</em></h3>
-        <p>The points that are <b>bold</b> are the main talking points.</p>
         <div class="main-points">
-          <ul id= "listed-points">
-            <li><b>Prejudices Surrounding Dragons</b>
-              <ul>
-              <li>Why people fear them</li>
-              </ul>
-            </li>
-            <li><b>Why the prejudices are wrong.</b></li>
-            <li><b>How to rectify public opinion.</b></li>
-            <li><b>How to train a dragon</b>
-              <ol>
-              <li><span>Finding a Dragon</span></li>
-              <li><strong>Befriending a Dragon</strong></li>
-              <li>Earning a Dragon's Trust</li>
-              </ol>
-            </li>
-            <li>Integrating Dragons into everyday life.</li>
-          </ul>
+          <h2 id="agenda">Meeting Agenda</h2>
+          <h3><em>Brief overview of potential talking points.</em></h3>
+          <p>The points that are <b>bold</b> are the main talking points.</p>
+            <ul id= "listed-points">
+              <li><b>Prejudices Surrounding Dragons</b>
+                <ul>
+                <li>Why people fear them</li>
+                </ul>
+              </li>
+              <li><b>Why the prejudices are wrong.</b></li>
+              <li><b>How to rectify public opinion.</b></li>
+              <li><b>How to train a dragon</b>
+                <ol>
+                <li><span>Finding a Dragon</span></li>
+                <li><strong>Befriending a Dragon</strong></li>
+                <li>Earning a Dragon's Trust</li>
+                </ol>
+              </li>
+              <li>Integrating Dragons into everyday life.</li>
+            </ul>
         </div>
-        <div class="meeting-sum">
+        <div class="meeting-summary">
           <details>
-              <summary>Meeting Summary</summary>
+              <summary id="meeting-sum">Meeting Summary</summary>
               The main topic of discussion was the prejudices still surrounding dragons. It will definitely be a reoccurring element in later meetings as well.
           </details>
         </div>
@@ -148,16 +148,18 @@ Any other comments, concerns, or potential meeting topics can be entered here.
         </datalist>
 
         <p> </p>
-        <label for="lead">Choose which person you'd rather lead the next meeting:</label>
-        <select name="lead" id="lead">
-          <option value="Fishlegs">Fishlegs</option>
-          <option value="Hiccup">Hiccup</option>
-          <option value="Astrid">Astrid</option>
-          <option value="Snotlout">Snotlout</option>
-          <option value="Stoick">Stoick</option>
-          <option value="Gobber">Gobber</option>
-        </select>
-      </section>
+        <div class="leader-options">
+          <label for="lead">Choose which person you'd rather lead the next meeting:</label>
+          <select name="lead" id="lead">
+              <option value="Fishlegs">Fishlegs</option>
+              <option value="Hiccup">Hiccup</option>
+              <option value="Astrid">Astrid</option>
+              <option value="Snotlout">Snotlout</option>
+              <option value="Stoick">Stoick</option>
+              <option value="Gobber">Gobber</option>
+          </select>
+        </div>
+        </section>
 
       <section>
         <h2>Click play button to play video</h2>
@@ -171,6 +173,30 @@ Any other comments, concerns, or potential meeting topics can be entered here.
         </audio>
       </section>
       
+      <button class="button-make">Click Me!</button>
+
+      <p id="color-purple">Guess the Connection:</p>
+      <div class="make-flexbox2">
+        <div>Songs</div>
+        <div>Music</div>
+        <div>Theater</div>
+      </div>
+
+      <p id="hidden">GASP THIS IS HIDDEN! - why do we have to do so much?</p>
+
+      <p>Ranking of Best Vikings According to Popular Opinion</p>
+      <div class="grid-container">
+        <div class="grid-item">Stoick</div>
+        <div class="grid-item">Gobber</div>
+        <div class="grid-item">Astrid</div>
+        <div class="grid-item">Hiccup</div>
+        <div class="grid-item">Snotlout</div>
+        <div class="grid-item">Fishlegs</div>
+        <div class="grid-item">Ruffnut</div>
+        <div class="grid-item">Tuffnut</div>
+        <div class="grid-item">Side Character 1</div>
+      </div>
+
     </main>
 
     <footer>
